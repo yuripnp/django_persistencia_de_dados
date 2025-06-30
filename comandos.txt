@@ -1,0 +1,9 @@
+1 - criar ambiente virtual:  virtualenv <nome_do_ambiente> 
+    por padrão o nome é virtualenv
+2 - ativar o ambiente virtual: source ./venv/bin/activate
+3 - instalar o django: pip install django
+4 - mostrando as dependencias do projeto : pip freeze
+5 - criando um arquivo txt para mostrar todas as dependencias que precisamos instalar: pip freeze > requirements.txt (manter sempre atualziado)
+6 - criando o projeto django: django-admin startproject setup . (colocar como "setup" é um padrão para nome dos projetos e o "." no final, ele não cria uma subpasta com o mesmo nome)
+7 - comando para rodar o o servidor: python manage.py runserver (o arquivo manage.py que sobe o servidor)
+
