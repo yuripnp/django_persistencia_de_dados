@@ -6,4 +6,8 @@
 5 - criando um arquivo txt para mostrar todas as dependencias que precisamos instalar: pip freeze > requirements.txt (manter sempre atualziado)
 6 - criando o projeto django: django-admin startproject setup . (colocar como "setup" é um padrão para nome dos projetos e o "." no final, ele não cria uma subpasta com o mesmo nome)
 7 - comando para rodar o o servidor: python manage.py runserver (o arquivo manage.py que sobe o servidor)
-
+8 - colocando variaveis de ambiente para proteger as secret-key: pip install python-dotenv
+9 - lembre-se de atualizar o arquivo requirements
+10 - criando um app, que representa uma pagina ou função no meu sistema django: python manage.py startapp galeria
+11 - usando o comando para renderizar os arquivos staticos para o django: python manage.py collectstatic (deve criar um diretorio com nome static)
+12
