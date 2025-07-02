@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'galeria',  # App created for the gallery functionality
+    'galeria.apps.GaleriaConfig',  # Custom app for managing photographs
 ]
 
 MIDDLEWARE = [

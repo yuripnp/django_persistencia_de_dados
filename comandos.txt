@@ -10,4 +10,8 @@
 9 - lembre-se de atualizar o arquivo requirements
 10 - criando um app, que representa uma pagina ou função no meu sistema django: python manage.py startapp galeria
 11 - usando o comando para renderizar os arquivos staticos para o django: python manage.py collectstatic (deve criar um diretorio com nome static)
-12
+12 - em projetos novos, podemos instalar todos os arquivos dentro do requirements.txt: pip install -r requirements.txt
+13 - ajudar a mostrar os comandos do django que podemos fazer: python manage.py help
+14 - quero criar uma migrations com as minhas models: python manage.py  makemigrations
+15 - criar o  meu banco de dados com as minhas models, gerando tabelas e atributos: python manage.py migrate
+16 - usar o power shell dentro do django: python manage.py shell
