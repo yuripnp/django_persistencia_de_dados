@@ -15,3 +15,5 @@
 14 - quero criar uma migrations com as minhas models: python manage.py  makemigrations
 15 - criar o  meu banco de dados com as minhas models, gerando tabelas e atributos: python manage.py migrate
 16 - usar o power shell dentro do django: python manage.py shell
+17 - precisamos criar um usuario que tenha caracteristicas de um usuario admin : python manage.py createsuperuser
+18 - toda vez que alguém alterar uma model, 
