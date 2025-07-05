@@ -15,7 +15,7 @@ class Fotografia(models.Model):
     legenda = models.CharField(max_length=255, null=True, blank=True)
     categoria = models.CharField(max_length=50,choices=opcoes_de_categoria, default='nebulosa')
     descricao = models.TextField(null=True, blank=True)
-    foto = models.CharField(max_length=255, null=False, blank=False)
+    foto = models.ImageField(upload_to='fotos/%Y/%m/%d/', null=True, blank=True)
     publicada  = models.BooleanField(default=False)
     data_fotografia = models.DateTimeField(default=datetime.datetime.now, null=False, blank=False)
 
