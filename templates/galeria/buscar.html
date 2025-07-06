@@ -42,6 +42,11 @@
                 </li>
                 {% endfor %}
                 {% else %}
+                <li class="card">
+                    <p class="card__titulo">Nenhuma fotografia encontrada.</p>
+                    <img class="card__imagem" src="{% static '/assets/imagens/galeria/not_found.jpg' %}"
+                        alt="foto não encontrada">
+                </li>
                 {% endif %}
             </ul>
         </div>
